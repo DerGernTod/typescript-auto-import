@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "bundler",
+        "module": "ESNext",
+        "composite": true,
+        "rootDir": "./src",
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "declaration": true,
+        "declarationMap": true
+    },
+    "include": ["src/the-lib.ts"]
+}

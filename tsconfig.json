@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "composite": true
+    },
+    "references": [
+        { "path": "./packages/consumer-dependency" },
+        { "path": "./packages/consumer-dev-dependency" },
+        { "path": "./packages/lib" }
+    ]
+}

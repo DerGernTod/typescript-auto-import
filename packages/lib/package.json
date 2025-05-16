@@ -1,0 +1,14 @@
+{
+    "name": "lib",
+    "version": "0.0.1",
+    "type": "module",
+    "exports": {
+        "./the-lib": "./dist/the-lib.js"
+    },
+    "scripts": {
+        "start": "tsc -b"
+    },
+    "devDependencies": {
+        "typescript": "catalog:"
+    }
+}

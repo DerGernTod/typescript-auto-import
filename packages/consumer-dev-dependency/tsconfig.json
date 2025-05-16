@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "bundler",
+        "module": "ESNext",
+        "composite": true,
+        "rootDir": "./src",
+        "baseUrl": "./",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+    },
+    "include": ["src/dev-consumer.ts"],
+    "references": [
+        {
+            "path": "../lib"
+        }
+    ]
+}

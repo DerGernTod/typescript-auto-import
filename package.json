@@ -1,0 +1,29 @@
+{
+  "name": "typescript-auto-import",
+  "version": "1.0.0",
+  "description": "Reproducer for typescript auto import issue with dev dependencies",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerGernTod/typescript-auto-import.git"
+  },
+  "engines": {
+    "node": "^22",
+    "pnpm": "^10"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "github@gernotraudner.at",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerGernTod/typescript-auto-import/issues"
+  },
+  "homepage": "https://github.com/DerGernTod/typescript-auto-import#readme",
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

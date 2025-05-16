@@ -1,0 +1,14 @@
+{
+    "name": "consumer-dependency",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "start": "tsc -b"
+    },
+    "dependencies": {
+        "lib": "workspace:*"
+    },
+    "devDependencies": {
+        "typescript": "catalog:"
+    }
+}
