@@ -1,6 +1,6 @@
 # Reproducer for Auto-Import bug in monorepos
 
-This repository reproduces a TypeScript bug that occurs on monorepos.
+This repository reproduces a [TypeScript bug](https://github.com/microsoft/TypeScript/issues/61709) that occurs on monorepos.
 
 In a scenario where you have one package that only contains types, and use this as a "devDependency"
 in other packages in the monorepo, TypeScript is not able to suggest auto-imports for types from this
